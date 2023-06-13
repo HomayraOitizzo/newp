@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.flexible {
+    display: flex;
+}
+
+.half-widtho {
+    width: 50%;
+    
+}
+
+.half-widths {
+    width: 60%;
+}
+
+.pos {
+    padding-left: 10%;
+    padding-top: 5%;
+}
