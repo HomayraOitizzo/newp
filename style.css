@@ -23,3 +23,18 @@ h1 {
 p{
     font-size: 25px;
 }
+.link-button
+{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(243, 47, 12);
+    border-radius: 10px;
+    font-weight: 800;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
