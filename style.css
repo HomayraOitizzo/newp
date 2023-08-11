@@ -1,9 +1,10 @@
 *{
+    
     margin:0;
     padding:0;
-    box-sizing: border-box;
+  box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-}
+} 
 h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
@@ -93,4 +94,120 @@ p{
     font-weight: 600;
     padding: 18px 35px;
     margin: 30px;
+}
+button {
+    overflow: visible;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  button, input, select, textarea {
+    color: #5A5A5A;
+    font: inherit;
+    margin: 0;
+  }
+  
+  input {
+    line-height: normal;
+  }
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  #bonus-container {
+    border: solid 3px #474544;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+  }
+  form {
+    padding: 37.5px;
+    margin: 50px 0;
+    color: #FFFFFF;
+  }
+ 
+  
+  h2 {
+    color: #474544;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .icon-wrapper {
+    margin: 20px auto 0;
+    width: 100%;
+  }
+  
+  .icon {
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+  }
+  
+  .email {
+      float: right;
+      width: 45%;
+  }
+  input[type='text'], [type='email'], select, textarea {
+	background: none;
+     border: none;
+	border-bottom: solid 2px;
+	font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+     width: 100%;
+}
+footer{
+    margin-top: 20px;
+    background: black;
+}
+.footer{
+    display: flex;
+    margin: 0px 150px;
+}
+.footer-txt-area{
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+.footer-txt-area p{
+    margin-top: 5px;
+}
+.email-area{
+    margin: 20px 0;
+}
+.footer-icon img{
+    margin-right: 4px;
+    margin-top: 15px;
+}
+.footer-subscribe-area{
+    margin-left: 200px;
+    color: #FFFFFF;
 }
